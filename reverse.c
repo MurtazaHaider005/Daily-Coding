@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int n=123, rev=0, rem;
+    int n=125, rev=0, rem;
     while(n>0){
         rem=n%10;
         rev=rev*10+rem;

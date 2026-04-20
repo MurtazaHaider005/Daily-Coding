@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main() {
-    int a=0,b=1,c,i;
+    float a=0,b=5,c,i;
     for(i=1;i<=5;i++){
-        // fibbonachi 
-        printf("%d ",a);
+        // fibbonacci
+        printf("%f ",a);
         c=a+b;
         a=b;
         b=c;
